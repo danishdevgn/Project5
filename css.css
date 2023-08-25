@@ -1,0 +1,105 @@
+img{
+    width: 200px;
+    border: 4px solid; /* Add a border style, such as "solid" */
+    box-shadow: 10px 10px 15px black;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    animation-timing-function: ease-in;
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat; /* Change "no" to "no-repeat" */
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    background-color: black;
+    color: white;
+    /* align: center; - this is not a valid CSS property */
+    /* position: bottom; - this is not a valid value for position property */
+    margin-left: 45%;
+    box-shadow: 10px 10px 15px black;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "aside-one aside-one aside-one aside-one aside-two"
+    "aside-one aside-one aside-one aside-one aside-two"
+    "footer footer footer footer footer";
+}
+header {
+  grid-area: header;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.main {
+  grid-area: main;
+}
+.aside-one {
+  grid-area: aside-one;
+  border: 2px solid #000;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+.aside-two {
+  grid-area: aside-two;
+}
+.footer {
+  grid-area: footer;
+}
+.hover-example {
+  width: 200px;
+  border-radius: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 2px solid black;
+  background: transparent;
+  color: black;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.hover-example:hover {
+  border-color:black);
+  background: black;
+  color: white;
+  font-weight: 600;
+  transition: all 0.5s ease-out;
+}
+p{
+  text-indent: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4{
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.grid-item {
+  padding: 1rem;
+
+}
+.fade-in{
+  animation: fade-in 4s forwards;
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
