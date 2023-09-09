@@ -1,14 +1,14 @@
 img{
     width: 200px;
-    border: 4px solid; /* Add a border style, such as "solid" */
+    border: 4px solid; 
     box-shadow: 10px 10px 15px black;
     margin-top: 2rem;
     margin-right: 1rem;
     animation-timing-function: ease-in;
 }
 body{
-    background-image: url("background.jpg");
-    background-repeat: no-repeat; /* Change "no" to "no-repeat" */
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat; 
     background-size: cover;
 }
 h3{
@@ -21,8 +21,6 @@ h3{
 table{
     background-color: black;
     color: white;
-    /* align: center; - this is not a valid CSS property */
-    /* position: bottom; - this is not a valid value for position property */
     margin-left: 45%;
     box-shadow: 10px 10px 15px black;
 }
